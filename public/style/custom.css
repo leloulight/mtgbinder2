@@ -1,0 +1,125 @@
+@import url("theme.min.css");
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    font-size: 1.8em;
+}
+
+.navbar-brand > strong {
+    color: #fff;
+}
+
+a.navbar-brand:hover > strong{
+    color: #77bffb;
+}
+
+.badge-version {
+    background-color: #ee5f5b;
+}
+
+button.sidebar-toggle {
+    font-size: 1.2em;
+    color: #fff;
+    margin-top: 14px;
+    margin-left: 15px;
+    padding: 0;
+}
+
+.btn-theme {
+    background-color: #1c1e22;
+    color: #fff;
+}
+
+.sidebar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 15px;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.sidebar-toggle:focus {
+    outline: 0;
+}
+
+.notification-label {
+    position: absolute;
+    display: inline-block;
+    background: #337ab7;
+    width: 16px;
+    height: 16px;
+    padding: 4px;
+    color: #fff;
+    font-size: 0.8em;
+    text-align: center;
+    border-radius: 50em;
+    -moz-border-radius: 50em;
+    -webkit-border-radius: 50em;
+    top: 10px;
+    right: 4px;
+    line-height: 9px;
+    text-shadow: none;
+}
+
+nav.sidebar {
+    margin: 0;
+    padding: 0 12px;
+    background-color: #1c1e22;
+}
+
+button.sidebar-shrink,
+button.logout {
+    background-color: transparent;
+    font-size: 1.2em;
+    color: #becfe0;
+    margin: 8px 4px;
+    padding: 0;
+    border: 0;
+}
+
+.panel-sidebar {
+    border-color: rgba(0,0,0,0.6)
+}
+
+.user-sidebar {
+    padding: 16px;
+    width: 100%;
+    height: 140px;
+    font-size: 0.9em;
+    background-color: transparent;
+}
+
+.panel-sidebar > .panel-heading {
+    color: #ffffff;
+    background-color: transparent;
+    border-color: rgba(0,0,0,0.6)
+}
+
+.panel-sidebar > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: rgba(0,0,0,0.6)
+}
+
+.panel-sidebar > .panel-heading .badge {
+    color: #ee5f5b;
+    background-color: #ffffff
+}
+
+.panel-sidebar > .panel-body {
+    background-color: transparent;
+}
+
+.nav-sidebar {
+    list-style: none;
+}
+
+.panel-sidebar > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: rgba(0,0,0,0.6)
+}
